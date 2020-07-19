@@ -16,7 +16,7 @@ const options = {
 const data = {
   name: chalk.white('Will Mendes /'),
   handle: chalk.cyan('@willmendesneto'),
-  work: chalk.cyan('Senior Software Engineer'),
+  work: chalk.cyan('Atlassian, Senior Software Engineer'),
   medium: chalk.cyan('https://medium.com/@willmendesneto'),
   twitter: chalk.cyan('https://twitter.com/willmendesneto'),
   github: chalk.cyan('https://github.com/willmendesneto'),
