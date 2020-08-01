@@ -17,6 +17,9 @@ const data = {
   name: chalk.white('Will Mendes /'),
   handle: chalk.cyan('@willmendesneto'),
   work: chalk.cyan('Atlassian, Senior Software Engineer'),
+  nominations: chalk.white(
+    'GDE Angular & Web Technologies, MVP Developer Technologies'
+  ),
   medium: chalk.cyan('https://medium.com/@willmendesneto'),
   twitter: chalk.cyan('https://twitter.com/willmendesneto'),
   github: chalk.cyan('https://github.com/willmendesneto'),
@@ -33,6 +36,7 @@ const data = {
 // Actual strings we're going to output
 const newline = '\n';
 const header = `${data.name} ${data.handle}`;
+const nominations = `${data.nominations}`;
 const work = `${data.labelWork}  ${data.work}`;
 const twitter = `${data.labelTwitter}  ${data.twitter}`;
 const github = `${data.labelGitHub}  ${data.github}`;
@@ -43,6 +47,10 @@ const card = `${data.labelCard}  ${data.npx}`;
 // Put all our output together into a single constiable so we can use boxen effectively
 const output =
   header +
+  newline +
+  newline +
+  nominations +
+  newline +
   newline +
   newline +
   work +
