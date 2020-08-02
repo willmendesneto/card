@@ -5,6 +5,8 @@
 const chalk = require('chalk');
 const boxen = require('boxen');
 
+const newline = '\n';
+
 // Define options for Boxen
 const options = {
   padding: 1,
@@ -14,11 +16,14 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('Will Mendes /'),
-  handle: chalk.cyan('@willmendesneto'),
+  name: chalk.white.bold('Will Mendes /'),
+  handle: chalk.cyan.bold('@willmendesneto'),
   work: chalk.cyan('Atlassian, Senior Software Engineer'),
   nominations: chalk.white(
-    'GDE Angular & Web Technologies, MVP Developer Technologies'
+    [
+      'Google Developer Expert (GDE) Angular & Web Technologies',
+      'Microsoft MVP Developer Technologies',
+    ].join(newline)
   ),
   medium: chalk.cyan('https://medium.com/@willmendesneto'),
   twitter: chalk.cyan('https://twitter.com/willmendesneto'),
@@ -34,7 +39,6 @@ const data = {
 };
 
 // Actual strings we're going to output
-const newline = '\n';
 const header = `${data.name} ${data.handle}`;
 const nominations = `${data.nominations}`;
 const work = `${data.labelWork}  ${data.work}`;
@@ -50,7 +54,6 @@ const output =
   newline +
   newline +
   nominations +
-  newline +
   newline +
   newline +
   work +
