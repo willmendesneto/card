@@ -18,20 +18,20 @@ const options = {
 const data = {
   name: chalk.white.bold('Will Mendes /'),
   handle: chalk.cyan.bold('@willmendesneto'),
-  work: chalk.cyan('Atlassian, Senior Software Engineer'),
+  work: chalk.cyan('NearForm, Senior Frontend Engineer'),
   nominations: chalk.white(
     [
       'Google Developer Expert (GDE) Angular & Web Technologies',
       'Microsoft MVP Developer Technologies',
     ].join(newline)
   ),
-  medium: chalk.cyan('https://medium.com/@willmendesneto'),
+  medium: chalk.cyan('https://willmendesneto.com/posts'),
   twitter: chalk.cyan('https://twitter.com/willmendesneto'),
   github: chalk.cyan('https://github.com/willmendesneto'),
-  web: chalk.cyan('https://willmendesneto.github.io/'),
+  web: chalk.cyan('https://willmendesneto.com/'),
   npx: chalk.white('npx willmendesneto'),
   labelWork: chalk.white.bold('      Work:'),
-  labelMedium: chalk.white.bold('    Medium:'),
+  labelMedium: chalk.white.bold('      Blog:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelWeb: chalk.white.bold('       Web:'),
