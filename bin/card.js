@@ -18,7 +18,7 @@ const options = {
 const data = {
   name: chalk.white.bold('Will Mendes /'),
   handle: chalk.cyan.bold('@willmendesneto'),
-  work: chalk.cyan('NearForm, Principal Frontend Engineer'),
+  work: chalk.cyan('InnovaCode, Principal Frontend Engineer'),
   nominations: chalk.white(
     [
       'Google Developer Expert (GDE) Angular & Web Technologies',
