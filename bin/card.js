@@ -26,13 +26,11 @@ const data = {
     ].join(newline)
   ),
   medium: chalk.cyan('https://willmendesneto.com/posts'),
-  twitter: chalk.cyan('https://twitter.com/willmendesneto'),
   github: chalk.cyan('https://github.com/willmendesneto'),
   web: chalk.cyan('https://willmendesneto.com/'),
   npx: chalk.white('npx willmendesneto'),
   labelWork: chalk.white.bold('      Work:'),
   labelMedium: chalk.white.bold('      Blog:'),
-  labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
   labelWeb: chalk.white.bold('       Web:'),
   labelCard: chalk.white.bold('      Card:'),
@@ -42,7 +40,6 @@ const data = {
 const header = `${data.name} ${data.handle}`;
 const nominations = `${data.nominations}`;
 const work = `${data.labelWork}  ${data.work}`;
-const twitter = `${data.labelTwitter}  ${data.twitter}`;
 const github = `${data.labelGitHub}  ${data.github}`;
 const web = `${data.labelWeb}  ${data.web}`;
 const medium = `${data.labelMedium}  ${data.medium}`;
@@ -59,8 +56,6 @@ const output =
   work +
   newline +
   github +
-  newline +
-  twitter +
   newline +
   medium +
   newline +
