@@ -21,7 +21,7 @@
     "chalk": "^4.1.0"
   },
   "devDependencies": {
-    "standard": "^14.3.4"
+    "standard": "^17.1.2"
   },
   "bugs": {
     "url": "https://github.com/willmendesneto/card/issues"
