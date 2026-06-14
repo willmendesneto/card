@@ -20,14 +20,11 @@ const data = {
   handle: chalk.cyan.bold('@willmendesneto'),
   work: chalk.cyan('InnovaCode, Principal Frontend Engineer'),
   nominations: chalk.white(
-    [
-      'Google Developer Expert (GDE) Angular & Web Technologies',
-      'Microsoft MVP Developer Technologies',
-    ].join(newline)
+    ['Google Developer Expert (GDE) Angular & Web Technologies'].join(newline),
   ),
-  medium: chalk.cyan('https://willmendesneto.com/posts'),
+  medium: chalk.cyan('https://willmendesneto.github.io/posts'),
   github: chalk.cyan('https://github.com/willmendesneto'),
-  web: chalk.cyan('https://willmendesneto.com/'),
+  web: chalk.cyan('https://willmendesneto.github.io/'),
   npx: chalk.white('npx willmendesneto'),
   labelWork: chalk.white.bold('      Work:'),
   labelMedium: chalk.white.bold('      Blog:'),
